@@ -1,0 +1,25 @@
+dvi,img {
+-webkit-box-shadow: 7px 7px 5px rgba(0,0,0,0.6); /* Для Safari 3.0 */
+    -moz-box-shadow: 7px 7px 5px rgba(0,0,0,0.6); /* Для Firefox 3.5 */
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6);  /*Для современных браузеров */
+    -webkit-border-radius : 5px;/* Для Firefox 3 */ 
+    border-radius : 15px;/* Для Safari 4 и Chrome */
+    -moz-border-radius : 5px;
+    background-color : #fff;    /* Цвет фона  color : #fff;*/
+    border:10px solid #fff; /* Параметры рамки */
+   /*  padding: 0px; Поля вокруг текста */
+    }
+
+body {
+	margin: 0;
+        background-attachment: fixed;
+	}
+
+    .sign {
+    float: left; /* Выравнивание по правому краю */
+   /* border: 1px solid #fff;  Параметры рамки */
+  /*  padding: 2px;  Поля внутри блока */
+   margin: 5px 5px 5px 5px;  /* Отступы вокруг */
+  /*  background: #f0f0f0;  Цвет фона */ 
+  /*text-align: center;   Выравнивание по центру */
+   }
